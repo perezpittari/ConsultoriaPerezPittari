@@ -13,6 +13,8 @@ selector {
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,700&display=swap");
 
+
+
 body {
   background-color: aliceblue;
   font-family: "Lato", sans-serif;
@@ -157,3 +159,24 @@ img {
   width: 300px;
 }
 /* FINALIZA SECCION DE CONTACTO*/
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .grid-section { 
+    margin:auto;
+		display:block;
+    gap: 40px;  
+  }
+  .grid-section p {
+    display: none;}
+
+ .grid-section img {
+    width:100%;
+    max-width:600px;}
+
+  .grid-section h2 {
+    bottom: auto;
+  }
+}
+ 
+  
+ 
