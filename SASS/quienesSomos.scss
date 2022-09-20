@@ -1,0 +1,52 @@
+@mixin estiloCard {
+    background-color: #48c213;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.presentación{
+    @include estiloCard();
+}   
+img{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    width: 100px;
+    height: 100px;
+}
+ /* COMIENZA SECCION DE FOOTER*/
+
+ .container-footer {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.text-footer {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    ul {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        list-style: none;
+    }
+    p {
+        color: #7FB77E;
+        font-size: 13px;
+        text-align: center;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
