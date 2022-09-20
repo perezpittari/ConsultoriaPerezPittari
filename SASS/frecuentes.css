@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #48c213;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  color: #d10d0d;
+}
+
+/* COMIENZA SECCION DE FOOTER*/
+.container-footer {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.text-footer {
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+}
+.text-footer ul {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  list-style: none;
+}
+.text-footer p {
+  color: #7FB77E;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 10px;
+  text-align: center;
+}/*# sourceMappingURL=frecuentes.css.map */
